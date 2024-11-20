@@ -1,13 +1,14 @@
-package Taller12.ImplIncorrecta.implNoLogica;
-
-
-
-
 /*Intenta implementar interfaces en clases 
 que no tienen lógica relevante para esas
  interfaces y discute por qué es una mala práctica. */
 
-public class Pez implements Volador {
+
+public interface Volador {
+    void volar();
+}
+
+
+ public class Pez implements Volador {
     @Override
     public void volar() {
         System.out.println("Un pez no puede volar.");

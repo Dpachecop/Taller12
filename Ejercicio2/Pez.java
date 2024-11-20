@@ -1,4 +1,3 @@
-package Taller12.Ejercicio2;
 
 public class Pez implements Nadador, Respirador {
     @Override
